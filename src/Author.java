@@ -7,17 +7,17 @@ public class Author {
         this.surnameAuthor = surnameAuthor;
     }
 
-    public String getNameAuthor() {
+    public String getName() {
         return this.nameAuthor;
     }
 
-    public String getSurnameAuthor() {
+    public String getSurname() {
         return this.surnameAuthor;
     }
 
     @Override
     public String toString() {
-        return "Author [nameAuthor = " + getNameAuthor()
-                + ", surnameAuthor = " + getSurnameAuthor() + "]";
+        return "Author [nameAuthor = " + getName()
+                + ", surnameAuthor = " + getSurname() + "]";
     }
 }
